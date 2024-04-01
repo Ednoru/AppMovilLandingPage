@@ -1,0 +1,7 @@
+body {
+    background-image: url('assets/wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 70px;
+}
