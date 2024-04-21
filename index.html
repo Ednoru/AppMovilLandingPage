@@ -1,77 +1,240 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BillMind</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
-    <header>
-        <nav id="navv" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Bill<span class="logo-dec">Mind</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#main-header">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+<div class="loader"></div>
+<div id="myDiv">
+    <!--HEADER-->
+    <div class="header">
+        <div class="bg-color">
+            <header id="main-header">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Bill<span class="logo-dec">Mind</span></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#main-header">Home</a></li>
+                                <li class=""><a href="#feature">Service</a></li>
+                                <li class=""><a href="#blog">Team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="banner-info text-center wow fadeIn delay-05s">
+                            <h1 class="bnr-title"><span></span></h1>
+                            <h2 class="bnr-sub-title">Simplifica tu camino hacia la libertad financiera con Bill Mind:</h2>
+                            <p class="bnr-para">claridad en cada pantalla, poder en cada toque </p>
+                            <div class="brn-btn">
+                                <a href="#" class="btn btn-download">¡Descarga nuestra app!</a>
+                                <a href="#feature" class="btn btn-more">Leer más</a>
+                            </div>
+                            <div class="overlay-detail">
+                                <a href="#feature"><i class="fa fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="container text-center">
-            <h1>BillMind</h1>
-            <p class="lead">La app que hará que nunca más se te olvide de pagar una deuda</p>
         </div>
-    </header>
-
-    <section id="about" class="py-5 shadow-sm">
+    </div>
+    <!--/ HEADER-->
+    <!---->
+    <section id="feature" class="section-padding wow fadeIn delay-05s">
         <div class="container">
-            <h2 class="text-center">¡Olvídate de no recordar cuándo pagar!</h2>
-            <p>¿Sientes que tus cuentas por pagar se han convertido en un laberinto sin salida? ¡No te preocupes más! BillMind está aquí para liberarte del caos financiero. BillMind es tu aliado digital para una gestión inteligente de tus finanzas. Con nuestra aplicación, podrás organizar todas tus cuentas por pagar de forma sencilla y recibir notificaciones oportunas para que nunca más te pierdas una fecha límite.</p>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="wrap-item text-center">
+                        <div class="item-img">
+                            <img src="img/ser01.png" width="64" height="64">
+
+                        </div>
+                        <h3 class="pad-bt15">Gestiona tus deudas</h3>
+                        <p>Bill Mind te permite agregar, eliminar o editar las deudas que tengas por pagar, asi como su fecha de pago y mucho más.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="wrap-item text-center">
+                        <div class="item-img">
+                            <img src="img/ser02.png" width="64" height="64">
+                        </div>
+                        <h3 class="pad-bt15">Personaliza tus notificaciones</h3>
+                        <p>Notificaciones personalizadas al gusto del cliente para una mayor comodidad.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="wrap-item text-center">
+                        <div class="item-img">
+                            <img src="img/ser03.png" width="64" height="64">
+                        </div>
+                        <h3 class="pad-bt15">Tips Financieros</h3>
+                        <p>Bill Mind te ofrece tips Financieros para ayudarte a aumentar tu educacion financiera</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="wrap-item text-center">
+                        <div class="item-img">
+                            <img src="img/ser04.png" width="64" height="64">
+                        </div>
+                        <h3 class="pad-bt15">Planifica tu fecha</h3>
+                        <p>Te ofrecemos un servicio para poder informarte sobre la deuda 1, 3, o hasta 7 días antes de la fecha de pago</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="team" class="py-5 shadow-sm">
+    <section id="blog" class="section-padding wow fadeInUp delay-05s">
         <div class="container">
-            <h2 class="text-center">¿Cómo funciona?</h2>
-            <p>BillMind es una aplicación web que te permite llevar un registro de todas tus cuentas por pagar. Para empezar, solo necesitas crear una cuenta y agregar tus deudas. BillMind te enviará recordatorios automáticos para que no se te pase ninguna fecha límite. ¡Así de fácil!</p>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="service-title pad-bt15">OUR TEAM</h2>
+                    <p class="sub-title pad-bt15">El equipo de desarrolladores de la StarUp.</p>
+                    <hr class="bottom-line">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-sec">
+                        <div class="blog-img">
+                            <a href="">
+                                <img src="img/blog01.jpg" class="img-responsive" width="210" height="167">
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h2>Xiao Lian Li Zegarra.</h2>
+                            <div class="blog-comment">
+                                <p>Posted In: <span>UPC</span></p>
+                                <p>
+                                    <span><a href="#"><i class="fa fa-comments"></i></a> 25</span>
+                                    <span><a href="#"><i class="fa fa-eye"></i></a> 20</span></p>
+                            </div>
+                            <p>Me considero un chico comprometido, responsable y de mente ágil. Tengo como hobbies practicar deportes de contacto como Boxeo, Kickboxing y Muay Thai. Elegí esta carrera porque me interesa la programación y el desarrollo de programas o soluciones mediante esta. </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-sec">
+                        <div class="blog-img">
+                            <a href="">
+                                <img src="img/blog02.jpg" width="210" height="167" class="img-responsive" >
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h2>Eduardo André Chero Emé.</h2>
+                            <div class="blog-comment">
+                                <p>Posted In: <span>UPC</span></p>
+                                <p>
+                                    <span><a href="#"><i class="fa fa-comments"></i></a> 22</span>
+                                    <span><a href="#"><i class="fa fa-eye"></i></a> 17</span></p>
+                            </div>
+                            <p>Me gusta los videojuegos y las series, quiero especializarme en ciberseguridad para tener una ganancia estable mientras creo videojuegos aparte por pasión.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-sec">
+                        <div class="blog-img">
+                            <a href="">
+                                <img src="img/blog03.jpg" class="img-responsive"  width="210" height="167">
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h2>Josue Arrunategui Aguilar.</h2>
+                            <div class="blog-comment">
+                                <p>Posted In: <span>UPC</span></p>
+                                <p>
+                                    <span><a href="#"><i class="fa fa-comments"></i></a> 29</span>
+                                    <span><a href="#"><i class="fa fa-eye"></i></a> 38</span></p>
+                            </div>
+                            <p>Me gusta dibujar, tocar uno que otro instrumento y jugar videojuegos, aparte también tengo conocimiento de los lenguajes de Python, c + +, SQL y algo de java; también tengo capacidad de resolver problemas y planteamiento de ideas, poseo una alta creatividad e imaginación, puntualidad y responsabilidad con el cumplimiento de mi parte del trabajo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-sec">
+                        <div class="blog-img">
+                            <a href="">
+                                <img src="img/blog04.png" class="img-responsive"  width="210" height="167" >
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h2>Anthony Jeandet Guerrero Castillo</h2>
+                            <div class="blog-comment">
+                                <p>Posted In: <span>UPC</span></p>
+                                <p>
+                                    <span><a href="#"><i class="fa fa-comments"></i></a> 23</span>
+                                    <span><a href="#"><i class="fa fa-eye"></i></a> 13</span></p>
+                            </div>
+                            <p> estudiante de Ingeniería de Software. Tengo altas expectativas de lo que puedo lograr con esta carrera ya que desde pequeño me ha apasionado el mundo de la tecnología, tanto software como hardware. </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!---->
 
-    <section id="contact" class="py-5 shadow-sm">
+    <!---->
+    <footer id="footer">
         <div class="container">
-            <h2 class="text-center">Equipo</h2>
-            <p>Conoce al equipo detrás de BillMind:</p>
-            <p>Somos un equipo de estudiantes de la carrera de Ingeniería de software de la Universidad Peruana de Ciencias aplicadas y desarrollamos esta aplicación como trabajo final para el curso de Aplicaciones para dispositivos móviles</p>
-            <p>Integrantes:</p>
-            <ul>
-                <li>Eduardo Chero - U20201F282</li>
-                <li>Xiao Li - </li>
-                <li>Anthony Guerrero - U202010054</li>
-                <li>Josué Arrunátegui -</li>
-            </ul>
-        </div>
-    </section>
+            <div class="row text-center">
+                <p>&copy; Healthy Food, todos los derechos reservados.</p>
+                <div class="credits">
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>Todos los derechos reservado BillMind© 2024</p>
+                    Designed by <a>HealthFood</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-6z5u5CvQhqLMpG8r+Knujsl7/1Fq1Jg5f5n6pZl+Dkz5lq5q8q6p6k5Jw5I5Z/h" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <!---->
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
+</html>
